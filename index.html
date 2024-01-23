@@ -41,7 +41,7 @@
           <u><h6 class="card-subtitle mb-2">Question 1</h6></u>
           <p class="card-text text-white">Which country is in the European Union?</p>
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="q1" id="optionRomania" value="romania">
+            <input class="form-check-input" type="radio" name="q1" id="correct1" value="romania">
             <label class="form-check-label" for="q1a">
               Romania
             </label>
@@ -63,8 +63,9 @@
             <label class="form-check-label" for="q1d">
               Switzerland
             </label>
-          </div>
-          <span class="emoji" id="statement1"></i></span> <!--emoji+statement-->
+      </div>
+          <div id="question1">
+          <span class="emoji" id="statement3"></span> </div><!--emoji+statement-->
         </div>
       </div>
       </div>
@@ -83,7 +84,7 @@
             </label>
           </div>
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="q2" id="optionPhilippines" value="philippines">
+            <input class="form-check-input" type="radio" name="q2" id="correct2" value="philippines">
             <label class="form-check-label" for="q2b">
               Philippines
             </label>
@@ -100,7 +101,8 @@
               Oman
             </label>
           </div>
-          <span class="emoji" id="statement2"></i></span> <!--emoji+statement-->
+          <div id="question2">
+          <span class="emoji" id="statement2"></span> </div><!--emoji+statement-->
         </div>
       </div>
       </div>
@@ -135,12 +137,13 @@
             </label>
           </div>
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="q3" id="optionPredictions" value="hisPredictions">
+            <input class="form-check-input" type="radio" name="q3" id="correct3" value="hisPredictions">
             <label class="form-check-label" for="q3d">
               His predictions
             </label>
           </div>
-          <span class="emoji" id="statement3"></i></span> <!--emoji+statement-->
+          <div id="question3">
+          <span class="emoji" id="statement3"></span> </div><!--emoji+statement-->
         </div>
       </div>
       </div>
@@ -167,7 +170,7 @@
             </labe>
           </div>
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="q4" id="optionParliament" value="aParliament">
+            <input class="form-check-input" type="radio" name="q4" id="correct4" value="aParliament">
             <label class="form-check-label" for="q4c">
               A Parliament
             </label>
@@ -178,7 +181,8 @@
               A Surprise
             </label>
           </div>
-          <span class="emoji" id="statement4"></i></span> <!--emoji+statement-->
+          <div id="question4">
+          <span class="emoji" id="statement4"></span> </div><!--emoji+statement-->
         </div>
       </div>
       </div>
@@ -201,7 +205,7 @@
             </label>
           </div>
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="q5" id="optionOmega" value="omega">
+            <input class="form-check-input" type="radio" name="q5" id="correct5" value="omega">
             <label class="form-check-label" for="q5b">
               Omega
             </label>
@@ -218,7 +222,8 @@
               Zeta
             </label>
           </div>
-          <span class="emoji" id="statement5"></i></span> <!--emoji+statement-->
+          <div id="question5">
+          <span class="emoji" id="statement5"></span> </div><!--emoji+statement-->
         </div>
       </div>
       </div>
@@ -237,7 +242,7 @@
             </label>
           </div>
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="q6" id="optionJupiter" value="jupiter">
+            <input class="form-check-input" type="radio" name="q6" id="correct6" value="jupiter">
             <label class="form-check-label" for="q6b">
               Jupiter
             </label>
@@ -254,13 +259,14 @@
               Saturn
             </label>
           </div>
-          <span class="emoji" id="statement6"></i></span> <!--emoji+statement-->
+          <div id="question6">
+          <span class="emoji" id="statement6"></span></div> <!--emoji+statement-->
         </div>
       </div>
       </div>
 
     </div> <!----end of 3rd row--->
-
+<div class="text-center text-warning fw-bold bg-dark" id="result1"></div>
       <div class="button">
     <button class="btn btn-primary m-5 mt-4" type="submit" id="submitAnswers" onclick="checkButton()">Submit answers</button>
     </div>
