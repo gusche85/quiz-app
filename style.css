@@ -10,7 +10,9 @@ body {
   background-position: center;
   position: relative;
   }
-
+.text-white.text-center.mb-5 {
+  font-family: cursive;
+}
 .card-body {
   width: 500px;
   margin: 0 auto;
