@@ -15,7 +15,6 @@ const q5 = document.getElementById('question5');
 const q6 = document.getElementById('question6');
 const custom = document.getElementById('custom');
 const submitAnswers = document.getElementById('submitAnswers');
-const reset = document.getElementById('reset');
 
 
 function checkButton() {
@@ -25,7 +24,7 @@ function checkButton() {
     q1.innerHTML = '<div class="text-success fw-bold">😄 Correct!</div>';
   }
   else {
-    q1.innerHTML = '<div class="text-danger">🙁 Opps! The correct answer is Romania.</div>';
+    q1.innerHTML = '<div class="text-danger">🙁 Oops! The correct answer is Romania.</div>';
   }
   
   if(question2.checked) {
@@ -33,7 +32,7 @@ function checkButton() {
     q2.innerHTML = '<div class="text-success fw-bold">😄 Correct!</div>';
   }
   else {
-    q2.innerHTML = '<div class="text-danger">🙁 Opps! The correct answer is Philippines.</div>';
+    q2.innerHTML = '<div class="text-danger">🙁 Oops! The correct answer is Philippines.</div>';
   }
   
   if(question3.checked) {
@@ -41,7 +40,7 @@ function checkButton() {
     q3.innerHTML = '<div class="text-success fw-bold">😄 Correct!</div>';
   }
   else {
-    q3.innerHTML = '<div class="text-danger">🙁 Opps! The correct answer is his predictions.</div>';
+    q3.innerHTML = '<div class="text-danger">🙁 Oops! The correct answer is his predictions.</div>';
   }
   
   if(question4.checked) {
@@ -49,21 +48,21 @@ function checkButton() {
     q4.innerHTML = '<div class="text-success fw-bold">😄 Correct!</div>';
   }
   else {
-    q4.innerHTML = '<div class="text-danger">🙁 Opps! The correct answer is a parliament.</div>';
+    q4.innerHTML = '<div class="text-danger">🙁 Oops! The correct answer is a parliament.</div>';
   }
   if(question5.checked) {
     score++;
     q5.innerHTML = '<div class="text-success fw-bold">😄 Correct!</div>';
   } 
   else {
-    q5.innerHTML = '<div class="text-danger">🙁 Opps! The correct answer is Omega.</div>';
+    q5.innerHTML = '<div class="text-danger">🙁 Oops! The correct answer is Omega.</div>';
   }
   if(question6.checked) {
     score++;
     q6.innerHTML = '<div class="text-success fw-bold">😄 Correct!</div>';
   }
   else {
-    q6.innerHTML = '<div class="text-danger">🙁 Opps! The correct answer is Jupiter.</div>';
+    q6.innerHTML = '<div class="text-danger">🙁 Oops! The correct answer is Jupiter.</div>';
   }
 
   
