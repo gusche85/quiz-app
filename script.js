@@ -90,7 +90,7 @@ function resetQuiz() {
     }
   }
 
-  // Clear custom messages and show check answer button
+  // Clear custom messages 
   document.querySelectorAll('.text-center.text-white.fw-bold.bg-dark').forEach(feedback => feedback.innerHTML = '');
 }
 
