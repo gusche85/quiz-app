@@ -25,7 +25,7 @@
   <div class="image">
 <div class="row">
 <div class="col-md-12 mb-0 pt-3 text-center">
-  <img src="quiz.png" height="150px">
+  <img src="quiz.png" height="130px">
 </div>
   <div class="text-white text-center mb-5">Test your knowledge with this simple quiz</div>
 </div>
@@ -125,9 +125,9 @@
             </label>
           </div>
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="q3" id="optionInventions" value="hisInventions">
+            <input class="form-check-input" type="radio" name="q3" id="optionSongs" value="hisSongs">
             <label class="form-check-label" for="q3b">
-              His inventions
+              His songs
             </label>
           </div>
           <div class="form-check form-check-inline">
@@ -266,9 +266,11 @@
       </div>
 
     </div> <!----end of 3rd row--->
-<div class="text-center text-warning fw-bold bg-dark" id="result1"></div>
+<div class="text-center text-white fw-bold bg-dark" id="result1"></div>
+<div class="text-center text-white fw-bold bg-dark" id="custom"></div>
       <div class="button">
     <button class="btn btn-primary m-5 mt-4" type="submit" id="submitAnswers" onclick="checkButton()">Submit answers</button>
+        <button class="btn btn-primary m-5 mt-4" type="reset" id="submitAnswers2" onclick="resetQuiz()">Reset</button>
     </div>
   </div> <!--end of container-->
   <script src="script.js"></script>
