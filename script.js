@@ -74,9 +74,12 @@ function checkButton() {
   else if (score === 3 || score === 4) {
     custom.innerHTML = 'Very good!'
     }
-  else {
+  else if (score === 2 || score === 1) {
     custom.innerHTML = 'Nice job!'
     }
+  else {
+    custom.innerHTML = 'Oops! Looks like you forgot to answer.'
+  }
 }
 
  
